@@ -366,17 +366,6 @@ F 3 "" H 9650 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x20 J5
-U 1 1 5F747B93
-P 10450 2400
-F 0 "J5" H 10530 2392 50  0000 L CNN
-F 1 "Conn_01x20" H 10530 2301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 10450 2400 50  0001 C CNN
-F 3 "~" H 10450 2400 50  0001 C CNN
-	1    10450 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x20 J4
 U 1 1 5F751F16
 P 7850 2400
@@ -476,21 +465,6 @@ F 1 "VCC" H 9915 1523 50  0000 C CNN
 F 2 "" H 9900 1350 50  0001 C CNN
 F 3 "" H 9900 1350 50  0001 C CNN
 	1    9900 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10250 1500 10100 1500
-Wire Wire Line
-	10100 1500 10100 1350
-$Comp
-L power:+3.3V #PWR021
-U 1 1 5F76784A
-P 10100 1350
-F 0 "#PWR021" H 10100 1200 50  0001 C CNN
-F 1 "+3.3V" H 10115 1523 50  0000 C CNN
-F 2 "" H 10100 1350 50  0001 C CNN
-F 3 "" H 10100 1350 50  0001 C CNN
-	1    10100 1350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1322,6 +1296,17 @@ F 1 "GND" H 7955 5277 50  0000 C CNN
 F 2 "" H 7950 5450 50  0001 C CNN
 F 3 "" H 7950 5450 50  0001 C CNN
 	1    7950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x20 J5
+U 1 1 5F747B93
+P 10450 2400
+F 0 "J5" H 10530 2392 50  0000 L CNN
+F 1 "Conn_01x20" H 10530 2301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 10450 2400 50  0001 C CNN
+F 3 "~" H 10450 2400 50  0001 C CNN
+	1    10450 2400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
