@@ -120,12 +120,12 @@ $EndComp
 $Comp
 L Connector:Conn_01x01_Male J3
 U 1 1 5F712C93
-P 8850 3650
-F 0 "J3" H 8958 3831 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 8958 3740 50  0001 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 8850 3650 50  0001 C CNN
-F 3 "~" H 8850 3650 50  0001 C CNN
-	1    8850 3650
+P 8550 3800
+F 0 "J3" H 8658 3981 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 8658 3890 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 8550 3800 50  0001 C CNN
+F 3 "~" H 8550 3800 50  0001 C CNN
+	1    8550 3800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -974,7 +974,7 @@ Connection ~ 9050 4400
 Wire Wire Line
 	9050 4400 9050 4450
 Wire Wire Line
-	9050 3650 9050 4400
+	9050 3800 9050 4400
 $Comp
 L Device:C C11
 U 1 1 5F8B58B4
@@ -1172,7 +1172,7 @@ Text Notes 10650 5300 0    50   ~ 0
 temp sensor\njumpers
 Wire Wire Line
 	9450 5700 9450 5600
-Text Notes 8700 3550 0    50   ~ 0
+Text Notes 8400 3700 0    50   ~ 0
 motor phase 3
 Text Notes 6200 3450 0    50   ~ 0
 motor phase 2
@@ -1365,4 +1365,6 @@ Wire Wire Line
 	7350 3700 7150 3700
 Wire Wire Line
 	7150 3700 7150 3150
+Wire Wire Line
+	9050 3800 8750 3800
 $EndSCHEMATC
